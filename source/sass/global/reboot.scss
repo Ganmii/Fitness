@@ -16,9 +16,9 @@ html {
   font-weight: 400;
   font-size: $fz-default;
   line-height: 24px;
-  font-family: $ff-placeholder;
-  color: $color-default-black;
-
+  font-family: $roboto;
+  color: $sapphire;
+  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   // оптимизация выравнивания шрифта относительно центра строки
@@ -30,7 +30,8 @@ html {
 body {
   width: 100%;
   height: 100%;
-
+  display: flex;
+  flex-direction: column;
   background-color: $color-default-white;
 }
 
