@@ -163,7 +163,7 @@
   position: relative;
   place-self: start end;
 
-  @media(max-width: $tablet-width) {
+  @media (max-width: $tablet-width) {
     place-self: auto;
   }
 }

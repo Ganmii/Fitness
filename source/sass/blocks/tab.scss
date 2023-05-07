@@ -48,6 +48,7 @@
 
   &:nth-child(3n+1) {
     position: relative;
+
     &::before {
       position: absolute;
       left: 0;
