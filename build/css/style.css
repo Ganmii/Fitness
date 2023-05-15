@@ -1663,6 +1663,7 @@ button,
 }
 
 .nav__phone {
+  margin-bottom: 20px;
   font-family: "Alumni Sans", "Verdana", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -1776,7 +1777,10 @@ button,
 
 .video__button {
   position: absolute;
-  top: 34%;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
   left: 40%;
   width: 72px;
   height: 72px;
@@ -1860,7 +1864,7 @@ button,
 .catalog__container {
   max-width: 1366px;
   margin: 0 auto;
-  padding: 120px 103px;
+  padding: 120px 75px;
 }
 
 .catalog__container h2 {
@@ -2704,6 +2708,7 @@ button,
 }
 
 .commercial__description a {
+  margin-top: 24px;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 14px;
@@ -2814,6 +2819,11 @@ button,
   background-color: #487be4;
 }
 
+.commercial__image img {
+  height: 100%;
+  background-size: cover;
+}
+
 .feedback__container {
   max-width: 762px;
   padding: 17px 45px;
@@ -2854,7 +2864,7 @@ button,
   -webkit-box-shadow: 0 0 40px rgba(28, 51, 116, 0.2);
   box-shadow: 0 0 40px rgba(28, 51, 116, 0.2);
   padding: 54px 62px;
-  padding-bottom: 32px;
+  padding-bottom: 55px;
 }
 
 .feedback__image {
@@ -2891,6 +2901,9 @@ button,
   display: block;
   background-color: transparent;
   margin: 0;
+  -webkit-transform: translateX(-2px);
+  -ms-transform: translateX(-2px);
+  transform: translateX(-2px);
 }
 
 .feedback__button::before {
@@ -2907,9 +2920,9 @@ button,
 }
 
 .feedback__button--next {
-  -webkit-transform: translateX(-4px);
-  -ms-transform: translateX(-4px);
-  transform: translateX(-4px);
+  -webkit-transform: translateX(1px);
+  -ms-transform: translateX(1px);
+  transform: translateX(1px);
 }
 
 .feedback__button--next::before {
@@ -3246,6 +3259,8 @@ button,
 }
 
 .footer__logo {
+  max-width: 88px;
+  max-height: 32px;
   color: #ffffff;
   margin-right: auto;
   -webkit-transform: translate(5px, 0);
@@ -3381,7 +3396,7 @@ button,
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1229px) {
   .header {
     background: conic-gradient(from 155.49deg at 20.7% 35.74%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
   }
@@ -3391,13 +3406,12 @@ button,
   }
 
   .header__nav {
-    padding-top: 35px;
-    margin-bottom: 18px;
+    padding-top: 34px;
   }
 
   .header__content {
     margin-top: 0;
-    padding-bottom: 82px;
+    padding-bottom: 81px;
   }
 
   .header__description {
@@ -3860,7 +3874,7 @@ button,
   }
 
   .feedback__item {
-    padding: 54px 65px 32px;
+    padding: 54px 65px 55px;
   }
 
   .site__wrapper {
@@ -3870,7 +3884,7 @@ button,
 
   .form {
     padding: 63px 0;
-    padding-bottom: 69px;
+    padding-bottom: 70px;
     width: 100%;
   }
 
@@ -3991,7 +4005,7 @@ button,
 
   .header__nav {
     padding-top: 15px;
-    margin-bottom: 42px;
+    margin-bottom: 29px;
   }
 
   .header__content {
@@ -4321,11 +4335,9 @@ button,
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 45px;
+    margin: 3px 0 47px;
     padding-top: 41px;
-    padding-bottom: 45px;
+    padding-bottom: 43px;
   }
 
   .advantages__item:nth-child(2n+3) {
@@ -4343,6 +4355,10 @@ button,
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 6px;
+  }
+
+  .advantages__value--accent {
+    margin-bottom: 8px;
   }
 
   .advantages__value--accent span {
@@ -4405,7 +4421,7 @@ button,
 
   .commercial__description p {
     margin-top: 20px;
-    margin-bottom: 31px;
+    margin-bottom: 7px;
     text-align: center;
   }
 
@@ -4462,7 +4478,7 @@ button,
     font-size: 32px;
     line-height: 38px;
     padding-right: 3px;
-    margin-bottom: 45px;
+    margin-bottom: 44px;
   }
 
   .feedback__list {
@@ -4475,7 +4491,7 @@ button,
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 40px 25px;
-    padding-bottom: 27px;
+    padding-bottom: 34px;
   }
 
   .feedback__image {
@@ -4591,7 +4607,7 @@ button,
 
   .footer__list {
     margin: 0;
-    margin-bottom: 29px;
+    margin-bottom: 25px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;

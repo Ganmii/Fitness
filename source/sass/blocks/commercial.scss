@@ -100,12 +100,13 @@
 
     @media (max-width: $mobile-width) {
       margin-top: 20px;
-      margin-bottom: 31px;
+      margin-bottom: 7px;
       text-align: center;
     }
   }
 
   a {
+    margin-top: 24px;
     color: $color-default-white;
     text-transform: uppercase;
     font-size: 14px;
@@ -244,6 +245,9 @@
   background-color: $royal-blue;
 
   img {
+    height: 100%;
+    background-size: cover;
+
     @media (max-width: $tablet-width) {
       width: 399px;
       height: 462px;

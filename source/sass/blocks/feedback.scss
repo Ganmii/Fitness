@@ -36,7 +36,7 @@
       font-size: 32px;
       line-height: 38px;
       padding-right: 3px;
-      margin-bottom: 45px;
+      margin-bottom: 44px;
     }
   }
 }
@@ -69,16 +69,16 @@
   background-color: $resolution-blue;
   box-shadow: 0 0 40px rgba($resolution-blue, 0.2);
   padding: 54px 62px;
-  padding-bottom: 32px;
+  padding-bottom: 55px;
 
   @media (max-width: $tablet-width) {
-    padding: 54px 65px 32px;
+    padding: 54px 65px 55px;
   }
 
   @media (max-width: $mobile-width) {
     flex-direction: column;
     padding: 40px 25px;
-    padding-bottom: 27px;
+    padding-bottom: 34px;
   }
 }
 
@@ -136,6 +136,7 @@
   display: block;
   background-color: transparent;
   margin: 0;
+  transform: translateX(-2px);
 
   &::before {
     content: "";
@@ -154,7 +155,7 @@
   }
 
   &--next {
-    transform: translateX(-4px);
+    transform: translateX(1px);
 
     &::before {
       transform: rotate(-135deg);
