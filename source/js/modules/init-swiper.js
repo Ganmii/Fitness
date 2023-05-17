@@ -1,3 +1,6 @@
+import Swiper, {Navigation, Pagination} from '../../../node_modules/swiper/swiper-bundle';
+Swiper.use([Navigation, Pagination]);
+
 const initStaffSwiper = () => {
   const staffSlider = new Swiper('.swiper--staff', { // eslint-disable-line
     direction: 'horizontal',
