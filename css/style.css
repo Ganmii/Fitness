@@ -1762,7 +1762,7 @@ button,
 
 .hero__video {
   position: absolute;
-  top: 72%;
+  top: 74%;
   left: -9.5%;
   width: 364px;
   height: 228px;
@@ -1864,7 +1864,7 @@ button,
 .catalog__container {
   max-width: 1366px;
   margin: 0 auto;
-  padding: 120px 75px;
+  padding: 120px 105px;
 }
 
 .catalog__container h2 {
@@ -3396,7 +3396,7 @@ button,
   }
 }
 
-@media (max-width: 1229px) {
+@media (max-width: 1199px) {
   .header {
     background: conic-gradient(from 155.49deg at 20.7% 35.74%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
   }
